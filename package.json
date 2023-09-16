@@ -14,7 +14,8 @@
   ],
   "sideEffects": false,
   "dependencies": {
-    "@bablr/grammar": "github:bablr-lang/grammar#a280340581846073caf47fd531e7f365f4aef5f2"
+    "@bablr/grammar": "github:bablr-lang/grammar#a280340581846073caf47fd531e7f365f4aef5f2",
+    "@bablr/language-spamex": "github:bablr-lang/language-spamex#47d1ccc8cf78e298dd2255f0b8b450ae1891685f"
   },
   "devDependencies": {
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e",

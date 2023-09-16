@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@bablr/eslint-config-base': github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e
   '@bablr/grammar': github:bablr-lang/grammar#a280340581846073caf47fd531e7f365f4aef5f2
+  '@bablr/language-spamex': github:bablr-lang/language-spamex#47d1ccc8cf78e298dd2255f0b8b450ae1891685f
   enhanced-resolve: ^5.12.0
   eslint: ^8.47.0
   eslint-import-resolver-enhanced-resolve: ^1.0.5
@@ -12,6 +13,7 @@ specifiers:
 
 dependencies:
   '@bablr/grammar': github.com/bablr-lang/grammar/a280340581846073caf47fd531e7f365f4aef5f2
+  '@bablr/language-spamex': github.com/bablr-lang/language-spamex/47d1ccc8cf78e298dd2255f0b8b450ae1891685f
 
 devDependencies:
   '@bablr/eslint-config-base': github.com/bablr-lang/eslint-config-base/a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e_eslint@8.49.0
@@ -2035,4 +2037,21 @@ packages:
     version: 0.0.0
     dependencies:
       iter-tools-es: 7.5.3
+    dev: false
+
+  github.com/bablr-lang/language-regex-vm-pattern/24b433f05d3d99b9199ed93dd28b0d5000fd8b1e:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/language-regex-vm-pattern/tar.gz/24b433f05d3d99b9199ed93dd28b0d5000fd8b1e}
+    name: '@bablr/miniparser-language-nonbacktracking-js-regex'
+    version: 0.0.0
+    engines: {node: '>=12.0.0'}
+    dev: false
+
+  github.com/bablr-lang/language-spamex/47d1ccc8cf78e298dd2255f0b8b450ae1891685f:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/language-spamex/tar.gz/47d1ccc8cf78e298dd2255f0b8b450ae1891685f}
+    name: '@bablr/language-spamex'
+    version: 0.0.0
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      '@bablr/grammar': github.com/bablr-lang/grammar/a280340581846073caf47fd531e7f365f4aef5f2
+      '@bablr/language-regex-vm-pattern': github.com/bablr-lang/language-regex-vm-pattern/24b433f05d3d99b9199ed93dd28b0d5000fd8b1e
     dev: false
