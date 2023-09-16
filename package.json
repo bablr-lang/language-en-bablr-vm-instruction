@@ -1,0 +1,32 @@
+{
+  "name": "@bablr/language-bablr-vm-instruction",
+  "version": "0.0.0",
+  "description": "A BABLR language for BABLR VM instructions",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "files": [
+    "lib/**/*.js"
+  ],
+  "sideEffects": false,
+  "dependencies": {
+    "@bablr/grammar": "github:bablr-lang/grammar#a280340581846073caf47fd531e7f365f4aef5f2"
+  },
+  "devDependencies": {
+    "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e",
+    "enhanced-resolve": "^5.12.0",
+    "eslint": "^8.47.0",
+    "eslint-import-resolver-enhanced-resolve": "^1.0.5",
+    "eslint-plugin-import": "^2.27.5",
+    "expect": "^29.6.2",
+    "prettier": "^2.0.5"
+  },
+  "repository": "git@github.com:bablr-lang/bablr-vm-instruction.git",
+  "homepage": "https://github.com/bablr-lang/bablr-vm-instruction",
+  "author": "Conrad Buck <conartist6@gmail.com>",
+  "license": "MIT"
+}
