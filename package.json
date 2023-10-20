@@ -18,7 +18,7 @@
     "clean": "rm lib/grammar.generated.js"
   },
   "dependencies": {
-    "@bablr/boot-helpers": "github:bablr-lang/boot-helpers#8170ed0b4ce775256ca897fb34f70581b6fe3a4c",
+    "@bablr/boot-helpers": "github:bablr-lang/boot-helpers#90d402f70a294bb024d1d09a9b5991b39e9440fc",
     "@bablr/grammar": "github:bablr-lang/grammar#a280340581846073caf47fd531e7f365f4aef5f2",
     "@bablr/language-spamex": "github:bablr-lang/language-spamex#47d1ccc8cf78e298dd2255f0b8b450ae1891685f"
   },
