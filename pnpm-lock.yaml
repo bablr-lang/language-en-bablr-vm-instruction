@@ -6,11 +6,11 @@ specifiers:
   '@babel/plugin-proposal-decorators': 7.22.15
   '@babel/plugin-transform-runtime': ^7.22.15
   '@babel/runtime': ^7.23.2
-  '@bablr/boot': github:bablr-lang/boot#311977defee968aa8454f9de9c7355fb93df0fc9
-  '@bablr/boot-helpers': github:bablr-lang/boot-helpers#90d402f70a294bb024d1d09a9b5991b39e9440fc
+  '@bablr/boot': github:bablr-lang/boot#e3bab9d63ac466a0ead88d85c3265e4de2881ffe
+  '@bablr/boot-helpers': github:bablr-lang/boot-helpers#ff3b7b07f783800e33f533c9d4b2292819f4efc2
   '@bablr/eslint-config-base': github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e
   '@bablr/grammar': github:bablr-lang/grammar#a280340581846073caf47fd531e7f365f4aef5f2
-  '@bablr/language-spamex': github:bablr-lang/language-spamex#47d1ccc8cf78e298dd2255f0b8b450ae1891685f
+  '@bablr/language-spamex': github:bablr-lang/language-spamex#7234359a18285518ffcf6df8c91df4b1dd37d882
   babel-plugin-macros: 3.1.0
   enhanced-resolve: ^5.12.0
   eslint: ^8.47.0
@@ -20,9 +20,9 @@ specifiers:
   prettier: ^2.0.5
 
 dependencies:
-  '@bablr/boot-helpers': github.com/bablr-lang/boot-helpers/90d402f70a294bb024d1d09a9b5991b39e9440fc
+  '@bablr/boot-helpers': github.com/bablr-lang/boot-helpers/ff3b7b07f783800e33f533c9d4b2292819f4efc2
   '@bablr/grammar': github.com/bablr-lang/grammar/a280340581846073caf47fd531e7f365f4aef5f2
-  '@bablr/language-spamex': github.com/bablr-lang/language-spamex/47d1ccc8cf78e298dd2255f0b8b450ae1891685f
+  '@bablr/language-spamex': github.com/bablr-lang/language-spamex/7234359a18285518ffcf6df8c91df4b1dd37d882
 
 devDependencies:
   '@babel/cli': 7.22.15_@babel+core@7.22.20
@@ -30,7 +30,7 @@ devDependencies:
   '@babel/plugin-proposal-decorators': 7.22.15_@babel+core@7.22.20
   '@babel/plugin-transform-runtime': 7.23.2_@babel+core@7.22.20
   '@babel/runtime': 7.23.2
-  '@bablr/boot': github.com/bablr-lang/boot/311977defee968aa8454f9de9c7355fb93df0fc9
+  '@bablr/boot': github.com/bablr-lang/boot/e3bab9d63ac466a0ead88d85c3265e4de2881ffe
   '@bablr/eslint-config-base': github.com/bablr-lang/eslint-config-base/a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e_eslint@8.49.0
   babel-plugin-macros: 3.1.0
   enhanced-resolve: 5.15.0
@@ -404,7 +404,6 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.0
-    dev: true
 
   /@babel/template/7.22.15:
     resolution: {integrity: sha512-QPErUVm4uyJa60rkI73qneDacvdvzxshT3kksGqlGWYdOTIUOwJ7RDUL8sGqslY1uXWSL6xMFKEXDS3ox2uF0w==}
@@ -2091,7 +2090,6 @@ packages:
 
   /regenerator-runtime/0.14.0:
     resolution: {integrity: sha512-srw17NI0TUWHuGa5CFGGmhfNIeja30WMBfbslPNhf6JrqQlLN5gcrvig1oqPxiVaXb0oW0XRKtH6Nngs5lKCIA==}
-    dev: true
 
   /regexp.prototype.flags/1.5.1:
     resolution: {integrity: sha512-sy6TXMN+hnP/wMy+ISxg3krXx7BAtWVO4UouuCN/ziM9UEne0euamVNafDfvC83bRNr95y0V5iijeDQFUNpvrg==}
@@ -2422,15 +2420,15 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/bablr-lang/boot-helpers/90d402f70a294bb024d1d09a9b5991b39e9440fc:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/boot-helpers/tar.gz/90d402f70a294bb024d1d09a9b5991b39e9440fc}
+  github.com/bablr-lang/boot-helpers/ff3b7b07f783800e33f533c9d4b2292819f4efc2:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/boot-helpers/tar.gz/ff3b7b07f783800e33f533c9d4b2292819f4efc2}
     name: '@bablr/boot-helpers'
     version: 0.0.0
     engines: {node: '>=12.0.0'}
     dev: false
 
-  github.com/bablr-lang/boot/311977defee968aa8454f9de9c7355fb93df0fc9:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/boot/tar.gz/311977defee968aa8454f9de9c7355fb93df0fc9}
+  github.com/bablr-lang/boot/e3bab9d63ac466a0ead88d85c3265e4de2881ffe:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/boot/tar.gz/e3bab9d63ac466a0ead88d85c3265e4de2881ffe}
     name: '@bablr/boot'
     version: 0.0.0
     engines: {node: '>=12.0.0'}
@@ -2470,19 +2468,37 @@ packages:
       iter-tools-es: 7.5.3
     dev: false
 
-  github.com/bablr-lang/language-regex-vm-pattern/24b433f05d3d99b9199ed93dd28b0d5000fd8b1e:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/language-regex-vm-pattern/tar.gz/24b433f05d3d99b9199ed93dd28b0d5000fd8b1e}
-    name: '@bablr/miniparser-language-nonbacktracking-js-regex'
+  github.com/bablr-lang/language-cstml-string/3387bcf4fdec24a4bfa0256843b0e20600b47a83:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/language-cstml-string/tar.gz/3387bcf4fdec24a4bfa0256843b0e20600b47a83}
+    name: '@bablr/language-cstml-string'
     version: 0.0.0
     engines: {node: '>=12.0.0'}
+    dependencies:
+      '@bablr/boot-helpers': github.com/bablr-lang/boot-helpers/ff3b7b07f783800e33f533c9d4b2292819f4efc2
+      '@bablr/grammar': github.com/bablr-lang/grammar/a280340581846073caf47fd531e7f365f4aef5f2
+      iter-tools-es: 7.5.3
     dev: false
 
-  github.com/bablr-lang/language-spamex/47d1ccc8cf78e298dd2255f0b8b450ae1891685f:
-    resolution: {tarball: https://codeload.github.com/bablr-lang/language-spamex/tar.gz/47d1ccc8cf78e298dd2255f0b8b450ae1891685f}
+  github.com/bablr-lang/language-regex-vm-pattern/551d823cfffba25f5812a2d505ef1d832b68ff59:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/language-regex-vm-pattern/tar.gz/551d823cfffba25f5812a2d505ef1d832b68ff59}
+    name: '@bablr/language-regex-vm-pattern'
+    version: 0.0.0
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      '@babel/runtime': 7.23.2
+      '@bablr/boot-helpers': github.com/bablr-lang/boot-helpers/ff3b7b07f783800e33f533c9d4b2292819f4efc2
+      '@bablr/grammar': github.com/bablr-lang/grammar/a280340581846073caf47fd531e7f365f4aef5f2
+      iter-tools-es: 7.5.3
+    dev: false
+
+  github.com/bablr-lang/language-spamex/7234359a18285518ffcf6df8c91df4b1dd37d882:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/language-spamex/tar.gz/7234359a18285518ffcf6df8c91df4b1dd37d882}
     name: '@bablr/language-spamex'
     version: 0.0.0
     engines: {node: '>=12.0.0'}
     dependencies:
+      '@bablr/boot-helpers': github.com/bablr-lang/boot-helpers/ff3b7b07f783800e33f533c9d4b2292819f4efc2
       '@bablr/grammar': github.com/bablr-lang/grammar/a280340581846073caf47fd531e7f365f4aef5f2
-      '@bablr/language-regex-vm-pattern': github.com/bablr-lang/language-regex-vm-pattern/24b433f05d3d99b9199ed93dd28b0d5000fd8b1e
+      '@bablr/language-cstml-string': github.com/bablr-lang/language-cstml-string/3387bcf4fdec24a4bfa0256843b0e20600b47a83
+      '@bablr/language-regex-vm-pattern': github.com/bablr-lang/language-regex-vm-pattern/551d823cfffba25f5812a2d505ef1d832b68ff59
     dev: false
