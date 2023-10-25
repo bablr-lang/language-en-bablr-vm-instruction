@@ -28,7 +28,7 @@
     "@babel/plugin-proposal-decorators": "7.22.15",
     "@babel/plugin-transform-runtime": "^7.22.15",
     "@babel/runtime": "^7.23.2",
-    "@bablr/boot": "github:bablr-lang/boot#e3bab9d63ac466a0ead88d85c3265e4de2881ffe",
+    "@bablr/boot": "github:bablr-lang/boot#6d4279c5eb00a31fa6d3ab004d57eb77c2860d02",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e",
     "babel-plugin-macros": "3.1.0",
     "enhanced-resolve": "^5.12.0",
