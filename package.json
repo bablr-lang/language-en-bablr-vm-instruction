@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@bablr/helpers": "github:bablr-lang/helpers#94e5d783d1a359a9909db4d71dba5dba56a1bf3b",
+    "@bablr/boot-helpers": "github:bablr-lang/boot-helpers#dfafc4a11c0e7c922285f814ea646719c9add213",
     "@bablr/grammar": "github:bablr-lang/grammar#a280340581846073caf47fd531e7f365f4aef5f2",
     "@bablr/language-spamex": "github:bablr-lang/language-spamex#7234359a18285518ffcf6df8c91df4b1dd37d882"
   },

@@ -7,6 +7,7 @@ specifiers:
   '@babel/plugin-transform-runtime': ^7.22.15
   '@babel/runtime': ^7.23.2
   '@bablr/boot': github:bablr-lang/boot#332124bfd3c6204dd886ee20821aaaac4cf2140c
+  '@bablr/boot-helpers': github:bablr-lang/boot-helpers#dfafc4a11c0e7c922285f814ea646719c9add213
   '@bablr/eslint-config-base': github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e
   '@bablr/grammar': github:bablr-lang/grammar#a280340581846073caf47fd531e7f365f4aef5f2
   '@bablr/helpers': github:bablr-lang/helpers#94e5d783d1a359a9909db4d71dba5dba56a1bf3b
@@ -20,6 +21,7 @@ specifiers:
   prettier: ^2.0.5
 
 dependencies:
+  '@bablr/boot-helpers': github.com/bablr-lang/boot-helpers/dfafc4a11c0e7c922285f814ea646719c9add213
   '@bablr/grammar': github.com/bablr-lang/grammar/a280340581846073caf47fd531e7f365f4aef5f2
   '@bablr/helpers': github.com/bablr-lang/helpers/94e5d783d1a359a9909db4d71dba5dba56a1bf3b
   '@bablr/language-spamex': github.com/bablr-lang/language-spamex/7234359a18285518ffcf6df8c91df4b1dd37d882
@@ -2409,6 +2411,13 @@ packages:
 
   github.com/bablr-lang/boot-helpers/8d35611ba68ef2ea33180cabd743966ce508794a:
     resolution: {tarball: https://codeload.github.com/bablr-lang/boot-helpers/tar.gz/8d35611ba68ef2ea33180cabd743966ce508794a}
+    name: '@bablr/boot-helpers'
+    version: 0.0.0
+    engines: {node: '>=12.0.0'}
+    dev: false
+
+  github.com/bablr-lang/boot-helpers/dfafc4a11c0e7c922285f814ea646719c9add213:
+    resolution: {tarball: https://codeload.github.com/bablr-lang/boot-helpers/tar.gz/dfafc4a11c0e7c922285f814ea646719c9add213}
     name: '@bablr/boot-helpers'
     version: 0.0.0
     engines: {node: '>=12.0.0'}
