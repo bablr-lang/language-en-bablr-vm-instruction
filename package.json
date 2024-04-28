@@ -18,19 +18,20 @@
     "clean": "rm lib/grammar.generated.js"
   },
   "dependencies": {
-    "@bablr/helpers": "github:bablr-lang/helpers#94e5d783d1a359a9909db4d71dba5dba56a1bf3b",
-    "@bablr/boot-helpers": "github:bablr-lang/boot-helpers#dfafc4a11c0e7c922285f814ea646719c9add213",
+    "@babel/runtime": "^7.23.2",
+    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#49df418cbd8b3f96318bd3dc52cd18195bc57637",
+    "@bablr/agast-vm-helpers": "github:bablr-lang/agast-vm-helpers#187423544f4d96b981653c8b373062b2578595ee",
+    "@bablr/helpers": "github:bablr-lang/bablr-helpers#fcc6e8835ac00d208d9d6560682cae48a6bbae17",
     "@bablr/grammar": "github:bablr-lang/grammar#a280340581846073caf47fd531e7f365f4aef5f2",
-    "@bablr/language-spamex": "github:bablr-lang/language-spamex#7234359a18285518ffcf6df8c91df4b1dd37d882"
+    "@bablr/language-spamex": "github:bablr-lang/language-spamex#1315e3dc58e896a02d87a8c9bf4ca8d17d3d1c6b"
   },
   "devDependencies": {
     "@babel/cli": "7.22.15",
     "@babel/core": "7.22.20",
     "@babel/plugin-proposal-decorators": "7.22.15",
     "@babel/plugin-transform-runtime": "^7.22.15",
-    "@babel/runtime": "^7.23.2",
-    "@bablr/boot": "github:bablr-lang/boot#332124bfd3c6204dd886ee20821aaaac4cf2140c",
-    "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e",
+    "@bablr/boot": "github:bablr-lang/boot#4b00260707fc8f508499f9931f64cefca1876ebe",
+    "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#49f5952efed27f94ee9b94340eb1563c440bf64e",
     "babel-plugin-macros": "3.1.0",
     "enhanced-resolve": "^5.12.0",
     "eslint": "^8.47.0",
