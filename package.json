@@ -19,18 +19,19 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.23.2",
-    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#49df418cbd8b3f96318bd3dc52cd18195bc57637",
-    "@bablr/agast-vm-helpers": "github:bablr-lang/agast-vm-helpers#187423544f4d96b981653c8b373062b2578595ee",
-    "@bablr/helpers": "github:bablr-lang/bablr-helpers#fcc6e8835ac00d208d9d6560682cae48a6bbae17",
+    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#5a704bd826ed2e8ab6ef0419571433996cea2894",
+    "@bablr/agast-vm-helpers": "github:bablr-lang/agast-vm-helpers#f5e73888656c091c5a9fd1963146ac3bf3426628",
+    "@bablr/helpers": "github:bablr-lang/bablr-helpers#8ded1818aef49ccc3c90783aa94516bd6da07050",
     "@bablr/grammar": "github:bablr-lang/grammar#a280340581846073caf47fd531e7f365f4aef5f2",
-    "@bablr/language-spamex": "github:bablr-lang/language-spamex#1315e3dc58e896a02d87a8c9bf4ca8d17d3d1c6b"
+    "@bablr/language-c-comments": "github:bablr-lang/language-c-comments#96839cd5795ba3d23b83b6aa186ea7acf9334097",
+    "@bablr/language-spamex": "github:bablr-lang/language-spamex#eb5bc6d26507f7723ebdbc210e0b04e32fd43a64"
   },
   "devDependencies": {
     "@babel/cli": "7.22.15",
     "@babel/core": "7.22.20",
     "@babel/plugin-proposal-decorators": "7.22.15",
     "@babel/plugin-transform-runtime": "^7.22.15",
-    "@bablr/boot": "github:bablr-lang/boot#4b00260707fc8f508499f9931f64cefca1876ebe",
+    "@bablr/boot": "github:bablr-lang/boot#7667feb1c9ce0fea1358a854c1dd05b4affd985a",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#49f5952efed27f94ee9b94340eb1563c440bf64e",
     "babel-plugin-macros": "3.1.0",
     "enhanced-resolve": "^5.12.0",
