@@ -7,33 +7,30 @@
   },
   "type": "module",
   "exports": {
-    ".": "./lib/grammar.generated.js"
+    ".": "./lib/grammar.js"
   },
   "files": [
     "lib/**/*.js"
   ],
   "sideEffects": false,
   "scripts": {
-    "generate": "babel lib/grammar.js --out-file lib/grammar.generated.js",
-    "clean": "rm lib/grammar.generated.js"
+    "build": "macrome build",
+    "watch": "macrome watch",
+    "clean": "macrome clean"
   },
   "dependencies": {
     "@babel/runtime": "^7.23.2",
-    "@bablr/agast-helpers": "github:bablr-lang/agast-helpers#5a704bd826ed2e8ab6ef0419571433996cea2894",
-    "@bablr/agast-vm-helpers": "github:bablr-lang/agast-vm-helpers#f5e73888656c091c5a9fd1963146ac3bf3426628",
-    "@bablr/helpers": "github:bablr-lang/bablr-helpers#8ded1818aef49ccc3c90783aa94516bd6da07050",
-    "@bablr/grammar": "github:bablr-lang/grammar#a280340581846073caf47fd531e7f365f4aef5f2",
-    "@bablr/language-c-comments": "github:bablr-lang/language-c-comments#96839cd5795ba3d23b83b6aa186ea7acf9334097",
-    "@bablr/language-spamex": "github:bablr-lang/language-spamex#eb5bc6d26507f7723ebdbc210e0b04e32fd43a64"
+    "@bablr/agast-helpers": "0.1.1",
+    "@bablr/agast-vm-helpers": "0.1.1",
+    "@bablr/helpers": "0.15.1",
+    "@bablr/language-c-comments": "0.1.1",
+    "@bablr/language-spamex": "0.1.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.22.15",
-    "@babel/core": "7.22.20",
-    "@babel/plugin-proposal-decorators": "7.22.15",
-    "@babel/plugin-transform-runtime": "^7.22.15",
-    "@bablr/boot": "github:bablr-lang/boot#7667feb1c9ce0fea1358a854c1dd05b4affd985a",
+    "@bablr/boot": "0.2.1",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#49f5952efed27f94ee9b94340eb1563c440bf64e",
-    "babel-plugin-macros": "3.1.0",
+    "@bablr/macrome": "0.1.1",
+    "@bablr/macrome-generator-bablr": "0.2.0",
     "enhanced-resolve": "^5.12.0",
     "eslint": "^8.47.0",
     "eslint-import-resolver-enhanced-resolve": "^1.0.5",
