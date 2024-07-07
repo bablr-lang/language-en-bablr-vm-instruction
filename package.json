@@ -27,7 +27,7 @@
     "@bablr/helpers": "0.16.0",
     "@bablr/language-blank-space": "0.1.2",
     "@bablr/language-cstml": "0.3.0",
-    "@bablr/language-spamex": "0.1.0"
+    "@bablr/language-spamex": "0.2.1"
   },
   "devDependencies": {
     "@bablr/boot": "0.2.4",
