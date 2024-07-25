@@ -1,5 +1,5 @@
 {
-  "name": "@bablr/language-bablr-vm-instruction",
+  "name": "@bablr/language-en-bablr-vm-instruction",
   "version": "0.0.0",
   "description": "A BABLR language for BABLR VM instructions",
   "engines": {
@@ -9,7 +9,8 @@
   "exports": {
     ".": "./lib/grammar.js",
     "./cstml": "./lib/cstml.grammar.js",
-    "./spamex": "./lib/spamex.grammar.js"
+    "./spamex": "./lib/spamex.grammar.js",
+    "./package.json": "./package.json"
   },
   "files": [
     "lib/**/*.js"
@@ -22,15 +23,15 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.23.2",
-    "@bablr/agast-helpers": "0.1.6",
-    "@bablr/agast-vm-helpers": "0.1.5",
-    "@bablr/helpers": "0.16.0",
-    "@bablr/language-blank-space": "0.1.2",
-    "@bablr/language-cstml": "0.3.0",
-    "@bablr/language-spamex": "0.2.1"
+    "@bablr/agast-helpers": "0.2.0",
+    "@bablr/agast-vm-helpers": "0.2.0",
+    "@bablr/helpers": "0.17.0",
+    "@bablr/language-en-blank-space": "0.2.0",
+    "@bablr/language-en-cstml": "0.4.0",
+    "@bablr/language-en-spamex": "0.3.1"
   },
   "devDependencies": {
-    "@bablr/boot": "0.2.4",
+    "@bablr/boot": "0.3.0",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#49f5952efed27f94ee9b94340eb1563c440bf64e",
     "@bablr/macrome": "0.1.3",
     "@bablr/macrome-generator-bablr": "0.3.1",
@@ -41,8 +42,13 @@
     "expect": "^29.6.2",
     "prettier": "^2.0.5"
   },
-  "repository": "git@github.com:bablr-lang/bablr-vm-instruction.git",
-  "homepage": "https://github.com/bablr-lang/bablr-vm-instruction",
+  "keywords": [
+    "bablr-language",
+    "grammar",
+    "english"
+  ],
+  "repository": "git@github.com:bablr-lang/language-en-bablr-vm-instruction.git",
+  "homepage": "https://github.com/bablr-lang/language-en-bablr-vm-instruction",
   "author": "Conrad Buck <conartist6@gmail.com>",
   "license": "MIT"
 }
