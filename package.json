@@ -23,15 +23,15 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.23.2",
-    "@bablr/agast-helpers": "0.2.0",
-    "@bablr/agast-vm-helpers": "0.2.0",
-    "@bablr/helpers": "0.17.0",
-    "@bablr/language-en-blank-space": "0.2.0",
-    "@bablr/language-en-cstml": "0.4.0",
-    "@bablr/language-en-spamex": "0.3.1"
+    "@bablr/agast-helpers": "0.3.1",
+    "@bablr/agast-vm-helpers": "0.3.1",
+    "@bablr/helpers": "0.18.0",
+    "@bablr/language-en-blank-space": "0.3.0",
+    "@bablr/language-en-cstml": "0.4.1",
+    "@bablr/language-en-spamex": "0.4.0"
   },
   "devDependencies": {
-    "@bablr/boot": "0.3.0",
+    "@bablr/boot": "0.4.0",
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#49f5952efed27f94ee9b94340eb1563c440bf64e",
     "@bablr/macrome": "0.1.3",
     "@bablr/macrome-generator-bablr": "0.3.1",
