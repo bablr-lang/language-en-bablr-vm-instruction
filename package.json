@@ -23,11 +23,11 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.23.2",
-    "@bablr/agast-helpers": "^0.5.0",
+    "@bablr/agast-helpers": "^0.5.3",
     "@bablr/agast-vm-helpers": "^0.5.0",
-    "@bablr/helpers": "^0.20.0",
+    "@bablr/helpers": "^0.20.5",
     "@bablr/language-en-blank-space": "^0.5.0",
-    "@bablr/language-en-cstml": "^0.6.0",
+    "@bablr/language-en-cstml": "^0.7.0",
     "@bablr/language-en-spamex": "^0.6.0"
   },
   "devDependencies": {
