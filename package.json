@@ -15,14 +15,14 @@
   ],
   "sideEffects": false,
   "dependencies": {
-    "@bablr/agast-helpers": "0.11.3",
-    "@bablr/agast-vm-helpers": "0.11.3",
-    "@bablr/helpers": "0.26.4",
-    "@bablr/language-en-blank-space": "0.11.1",
-    "@bablr/language-en-cstml": "0.13.0",
-    "@bablr/language-en-regex-vm-pattern": "0.13.0",
-    "@bablr/language-en-spamex": "0.12.1",
-    "@bablr/language-en-cstml-json": "0.6.0"
+    "@bablr/agast-helpers": "0.11.4",
+    "@bablr/agast-vm-helpers": "0.11.4",
+    "@bablr/helpers": "0.26.5",
+    "@bablr/language-en-blank-space": "0.11.2",
+    "@bablr/language-en-cstml": "0.13.1",
+    "@bablr/language-en-regex-vm-pattern": "0.13.1",
+    "@bablr/language-en-spamex": "0.12.2",
+    "@bablr/language-en-cstml-json": "0.6.1"
   },
   "devDependencies": {
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#23b94fb3bdfdbc3ac7ed9cb58d7979d8f07dce2b",
